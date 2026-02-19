@@ -1,0 +1,54 @@
+<html>
+
+<head>
+  <title>404 - NFC红包站点 - Not Found</title>
+
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <style>
+    a {
+      text-decoration: none;
+      color: #333;
+
+    }
+  </style>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-Q68SN9YXQM"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+    gtag('config', 'G-Q68SN9YXQM');
+
+
+  </script>
+  <script>
+    fetch('https://v1.hitokoto.cn')
+      .then(response => response.json())
+      .then(data => {
+        const hitokoto = document.getElementById('hitokoto')
+        hitokoto.href = 'https://hitokoto.cn/?uuid=' + data.uuid
+        hitokoto.innerText = data.hitokoto
+        // const debug = document.getElementById('debug')
+        // debug.innerText = data.type
+      })
+      .catch(console.error)
+
+  </script>
+</head>
+
+<body>
+  <center>
+    <h1>404 Not Found</h1>
+  </center>
+  <center>网址错啦，别担心，<div><a href="https://luckymoney.matt.nixiak.xyz/">点我返回空Matt's NFC红包主页</a></div>
+  </center>
+  <hr>
+  <center>Copyright (c) 2024 | Made with ♡</center>
+  <a id="hitokoto" target="_blank">:D 获取中...</a>
+  <p>免责声明：上方数据来源v1.hitokoto.cn，由一言网审核其内容，仅做网站美化使用，本站无法控制其具体输出内容，不对其实际展示内容表态。</p>
+  <p id="debug"></p>
+</body>
+
+</html>

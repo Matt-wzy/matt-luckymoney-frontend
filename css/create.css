@@ -1,0 +1,126 @@
+			.my-container {
+				margin-top: 62px;
+				margin-bottom: 10px;
+			}
+			
+			@media screen and (min-width: 1024px) {
+				/* Mobile layout */
+				.block-1 {
+					order: 2;
+				}
+				.block-2 {
+					order: 1;
+				}
+				.block-3 {
+					order: 3;
+				}
+			}
+			
+			.navbar {
+				/* background-color: #2560f679;
+            color: #fff; */
+			}
+			
+			.display-none {
+				display: none;
+			}
+			
+			.footer {
+				/* background-color: #f0f0f0; */
+			}
+			
+			.block1 {
+				display: flex;
+				/* flex-direction: column; */
+				align-items: center;
+				/* height: 100vh; */
+			}
+			
+			.box {
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				/* width: 100%;
+            height: 100%; */
+				/* background-color: lightgray; */
+				justify-content: space-between;
+				/* max-width: 381px; */
+				margin-left: auto;
+				margin-right: auto;
+			}
+			
+			.inputs {
+				margin-bottom: 20px;
+				justify-content: center
+			}
+			
+			.input-group {
+				display: flex;
+				align-items: center;
+				margin-bottom: 10px;
+			}
+			
+			.input-wrapper {
+				flex-grow: 1;
+				max-width: fit-content;
+			}
+			
+			.input-wrapper input {
+				width: 100%;
+				max-width: 120px;
+				padding: 6px;
+				font-size: 16px;
+				border-radius: 4px;
+				border: 1px solid #ccc;
+				outline: none;
+			}
+			
+			.tip {
+				/* 新增代码 */
+				font-size: 14px;
+				/* color: #888; */
+				margin-top: 5px;
+			}
+			
+			.buttons {
+				display: flex;
+				flex-direction: column;
+				gap: 10px;
+				margin-bottom: 20px;
+			}
+			
+			.button-row {
+				display: flex;
+				align-items: center;
+				gap: 10px;
+			}
+			
+			.label {
+				/* width: 80px; */
+				width: 80px;
+				font-size: 18px;
+				text-align: right;
+				margin-right: 10px;
+			}
+			
+			
+			.remark {
+				position: sticky;
+				z-index: 900;
+				bottom: 0;
+				text-align: center;
+				color: #fff;
+				opacity: .60 !important;
+				padding-bottom: 3px;
+				background-color: black;
+			}
+			
+			.power {
+				display: inline-block;
+				color: #fff !important;
+				letter-spacing: 0;
+				font-size: 10px;
+				line-height: 30px;
+				margin: 0 auto;
+				margin-top: 3px;
+			}

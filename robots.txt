@@ -1,0 +1,55 @@
+User-agent: Googlebot
+Sitemap: /sitemap.xml
+Allow: /
+Allow: /#/about
+Disallow: /api/
+
+User-agent: Googlebot-Image
+Sitemap: /sitemap.xml
+Allow: /index.html
+Allow: /#/about
+Disallow: /api/
+
+User-agent: Baiduspider-news
+Sitemap: /sitemap.xml
+Allow:/seo.html
+Disallow: /api/
+
+User-agent: Baiduspider
+Allow:/index.html
+Sitemap: /sitemap.xml
+Allow:/seo.html
+Disallow: /api/
+
+User-agent: Baiduspider-render
+Allow:/index.html
+Sitemap: /sitemap.xml
+Allow:/seo.html
+Disallow: /api/
+
+User-agent: Baiduspider-image
+Allow:/index.html
+Sitemap: /sitemap.xml
+Allow:/seo.html
+Disallow: /api/
+
+User-agent: bingbot
+Allow:/index.html
+Sitemap: /sitemap.xml
+Allow:/seo.html
+Disallow: /api/
+
+User-agent: YandexBot
+Sitemap: /sitemap.xml
+Allow:/seo.html
+Disallow: /api/
+
+User-agent: DuckDuckGo
+Sitemap: /sitemap.xml
+Allow:/seo.html
+Disallow: /api/
+
+User-Agent: *
+Sitemap: /sitemap.xml
+Allow:/seo.html
+Disallow: /
